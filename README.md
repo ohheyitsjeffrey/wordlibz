@@ -57,3 +57,5 @@ Install the [Remote Development](https://marketplace.visualstudio.com/items?item
 ext install ms-vscode-remote.vscode-remote-extensionpack
 ```
 
+You may need to restart VSCode but from there you can run the command `Remote-ContainersL Open Folder In Containers` and follow the on screen promps to select this directory 
+and re-open VSCode in the container.
