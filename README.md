@@ -45,7 +45,7 @@ for those with newer installations requiring the newer syntax.
 
 ### Running VSCode In Container
 
-VSCode allows you to open a project in a docker container and get busy from there.  It can be a big much if you have multiple environments 
+VSCode allows you to open a project in a docker container and get busy from there.  It can be a bit much if you have multiple environments 
 to run (front end / back end apps with related services) as it will open a new window for each docker container, which is annoying.  
 **Fortunately for us** this is a single page node application so we can fit it all in one container.
 
