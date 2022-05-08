@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.App-Header-Branding {
+  font-family: Monoton;
+  font-weight: normal;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
@@ -36,4 +41,9 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+@font-face {
+  font-family: Monoton;
+  src: url(../public/Monoton-Regular.ttf);
 }
