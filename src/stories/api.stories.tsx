@@ -1,6 +1,6 @@
 import { ComponentMeta } from '@storybook/react';
 import React, { useState } from 'react';
-import { getRandomArticle } from 'api/getRandomArticle';
+import { getRandomArticle } from 'utils/getRandomArticle';
 
 // A sloppy quick way to test this api function without fighting with typescript and REPL
 export const GetRandomArticleTestUI = () => {

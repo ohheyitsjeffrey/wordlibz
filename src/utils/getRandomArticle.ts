@@ -5,13 +5,10 @@
  * @async
  * @param none
  */
-export const getRandomArticle = async ()  => {
-
+export const getRandomArticle = async ()  => { 
     // gives us a random summary from wikipedia.
-    const url = 'https://en.wikipedia.org/api/rest_v1/page/random/summary'
-
+    const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&&origin=*&prop=extracts&list=&generator=random&exintro=1&explaintext=1&exsectionformat=plain&grnnamespace=0`
     const article = await fetch(url);
-
     return article.json();
 }
 
