@@ -15,7 +15,7 @@ export const GetRandomArticleTestUI = () => {
       <br />
       <button
         onClick={async () => {
-          let article = await getRandomArticle().then((response) => {
+          await getRandomArticle().then((response) => {
             setResponseMessage(JSON.stringify(response));
             console.log(response);
           });
