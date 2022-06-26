@@ -2,7 +2,7 @@ import { isJSDocTypedefTag, isTaggedTemplateExpression } from "typescript";
 import { parseAndTagArticle } from "./parseAndTagArticle";
 import { createMockArticle } from "./utilTestHelpers"
 
-it(' Returns an array of tags when passed an article', () => {
+it('Returns an array of tags when passed an article', () => {
   const article = createMockArticle();
   const parsed = parseAndTagArticle(article)
   
